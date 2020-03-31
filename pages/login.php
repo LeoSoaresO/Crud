@@ -6,13 +6,13 @@
         <link rel="stylesheet" href="../css/style.css">
         <title>Crud</title>
     </head>
-    <body>
+    <body style="margin-top: 80px">
         <div class="container">
             <a class="links" id="cadastro"></a>
             <a class="links" id="login"></a>
                 <div class="content">
                     <!-- FORMULARIO DE LOGIN -->
-                    <div id="login">
+                    <div id="login" style="padding-bottom: 100px; margin-bottom: 32px;">
                         <form method="post" action="">
                             <h1>Login</h1>
                             <p>
@@ -42,6 +42,16 @@
                     </div>
                 </div>
             </div>
+            <Ul>
+        <div class="navbar">
+        <li>
+            <a href="../index.php">Home</a>
+            <a href="register.php">Cadastro</a>
+            <a href="">Sobre Nós</a>
+            <a href="" class="right">Contato</a>
+        </div>
+        </li>
+    </Ul>
         </div>
     </body>
 </html>

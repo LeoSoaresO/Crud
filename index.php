@@ -6,13 +6,12 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Crud</title>
 </head>
-<body>
+<body style="margin-top: 80px">
     <div class="container">
-<<<<<<< HEAD
     <a class="links" id="cadastro"></a>
         <div class="content">
            <!--HOME-->
-            <div id="home" style=" padding-bottom: 482px;">
+            <div id="home" style=" padding-bottom: 403px;">
             <form method="post" action="">
             <H1 style="color: #ddd">Bem Vindo</H1>
             </form>
@@ -21,17 +20,13 @@
     <Ul>
         <div class="navbar">
         <li>
-          <a href="#">Link</a>
-          <a href="#">Link</a>
-          <a href="#">Link</a>
-          <a href="#" class="right">Link</a>
+            <a href="pages/login.php">Login</a>
+            <a href="pages/register.php">Cadastro</a>
+            <a href="">Sobre Nós</a>
+            <a href="" class="right">Contato</a>
         </div>
         </li>
     </Ul>
     </div>    
-=======
-    
-    </div>
->>>>>>> 8833f019bc96439e1a9371f230a95117d9a36b57
 </body>
 </html>

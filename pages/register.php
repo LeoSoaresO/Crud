@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Crud</title>
 </head>
-<body>
+<body style="margin-top: 80px">
     <div class="container">
         <a class="links" id="cadastro"></a>
         <div class="content">
            <!--FORMULARIO DE CADASTRO-->
-           <div id="cadastro">
+           <div id="cadastro" style="margin-bottom: 31px;">
                     <form method="post" action="cadastrar.php">
                         <H1>Cadastro</H1>
                         <p>
@@ -40,6 +40,16 @@
                     </form>
                 </div>      
             </div>
+            <Ul>
+        <div class="navbar">
+        <li>
+            <a href="../index.php">Home</a>
+            <a href="Login.php">Login</a>
+            <a href="">Sobre Nós</a>
+            <a href="" class="right">Contato</a>
+        </div>
+        </li>
+    </Ul>
     </div>
 </body>
 </html>
