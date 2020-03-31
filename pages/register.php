@@ -12,7 +12,7 @@
         <div class="content">
            <!--FORMULARIO DE CADASTRO-->
            <div id="cadastro">
-                    <form method="post" action="">
+                    <form method="post" action="cadastrar.php">
                         <H1>Cadastro</H1>
                         <p>
                             <label for="nome_cad">Seu nome</label>
@@ -35,7 +35,7 @@
 
                         <p class="link">
                             Já tem uma conta ? 
-                            <a href="#login">Ir para Login</a>
+                            <a href="login.php">Ir para Login</a>
                         </p>
                     </form>
                 </div>      
