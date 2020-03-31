@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="container">
+<<<<<<< HEAD
     <a class="links" id="cadastro"></a>
         <div class="content">
            <!--HOME-->
@@ -28,5 +29,9 @@
         </li>
     </Ul>
     </div>    
+=======
+    
+    </div>
+>>>>>>> 8833f019bc96439e1a9371f230a95117d9a36b57
 </body>
 </html>
