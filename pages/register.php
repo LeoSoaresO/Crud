@@ -5,8 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <title>Crud</title>
+    <Ul>
+        <div class="navbar">
+        <li>
+            <a href="../index.php">Home</a>
+            <a href="Login.php">Login</a>
+            <a href="about.us.php">Sobre Nós</a>
+            <a href="" class="right">Contato</a>
+        </div>
+        </li>
+    </Ul>
 </head>
-<body style="margin-top: 80px">
+<body>
     <div class="container">
         <a class="links" id="cadastro"></a>
         <div class="content">
@@ -40,16 +50,6 @@
                     </form>
                 </div>      
             </div>
-            <Ul>
-        <div class="navbar">
-        <li>
-            <a href="../index.php">Home</a>
-            <a href="Login.php">Login</a>
-            <a href="">Sobre Nós</a>
-            <a href="" class="right">Contato</a>
-        </div>
-        </li>
-    </Ul>
     </div>
 </body>
 </html>

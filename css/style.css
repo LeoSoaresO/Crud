@@ -84,7 +84,7 @@ input:not([type="checkbox"]){
 input[type="submit"]{
     width: 100%;
     cursor: pointer;
-    background: rgb(61, 157, 179);
+    background: #388992;
     padding: 8px 5px;
     color: #fff;
     font-size: 20px;
@@ -100,7 +100,7 @@ input[type="submit"]{
 }
 /*Estilo do botão de submit na transição*/
 input[type="submit"]:hover{
-    background: #4ab3c6;
+    background: #066a75;
 }
 .link{
     position: absolute;
@@ -121,9 +121,9 @@ input[type="submit"]:hover{
     font-weight: bold;
     background: #f7f8f1;
     padding: 6px;
-    color: rgb(29, 162, 193);
+    color: #388992;
     margin-left: 10px;
-    border: 1px solid #cbd518;
+    border: 1px solid #388992;
     
     -webkit-border-radius: 4px;
     border-radius: 4px;
@@ -132,9 +132,9 @@ input[type="submit"]:hover{
     transition: all 0.4s linear;
 }
 .link a:hover{
-    color: #39bfd7;
-    border: 1px #4ab3c6;
-    background: #f7f7f7;
+    color: #ddd;
+    border: 1px #ddd;
+    background: #388992;
 }
 #cadastro,
 #login
@@ -143,7 +143,7 @@ input[type="submit"]:hover{
     top: 0px;
     width: 80%;
     padding: 18px 6% 60px 6%;
-    margin: 0 0 35px 0;
+    margin: 35px 0 0px 0;
     background: #f7f7f7;
     border: 1px solid rgba(147, 184, 189, 0.8);
 
@@ -219,14 +219,14 @@ input[type="submit"]:hover{
 /* Style the top navigation bar */
 .navbar {
     overflow: hidden; 
-    background-color: #066a75; 
+    background-color: #388992; 
   }
   
   /* Style the navigation bar links */
   .navbar a {
     float: left; 
     display: block; 
-    color: white; 
+    color: #ddd; 
     text-align: center; 
     padding: 14px 20px; 
     text-decoration: none; 
@@ -237,8 +237,28 @@ input[type="submit"]:hover{
     float: right; 
   }
   
-  /* Change color on hover/mouse-over */
+ 
   .navbar a:hover {
     background-color: #ddd; 
-    color: #066a75; 
+    color: #388992;
   }
+  
+  .column {
+    float: left;
+    width: 339px;
+    padding: 10px;
+    height: 260px;
+    border-radius: 5px;
+    margin: 40px;
+    background-color: #ddd;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.column:hover{
+    background-color: #aaa;
+}
