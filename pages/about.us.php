@@ -21,12 +21,21 @@
     <a class="links" id="cadastro"></a>
         <div class="content">
            <!--HOME-->
-            <div id="home" style=" padding-bottom: 403px;">
+            <div id="home" style=" padding-bottom: 43px;">
             <form method="post" action="">
             <H1 style="color: #ddd; margin-top: 35px;">Sobre nós</H1>
             </form>
             </div>
         </div>
+        <div class="row" style="padding-left: 225px;">
+        <div class="column">
+            <img src="https://avatars3.githubusercontent.com/u/22153712?v=4">
+            <p></p>
+        </div>
+        <div class="column">
+            <img src="https://avatars3.githubusercontent.com/u/55774875?v=4">
+            <p></p>
+    </div>
     </div>    
 </body>
 </html>
